@@ -1,13 +1,14 @@
+ import './styles/SideBar.css'
+ import 'bootstrap/dist/css/bootstrap.min.css';
+
  export default function SideBar() {
     return(
-        <section className="offcanvas offcanvas-start bg-body-tertiary"
+        <section  className="offcanvas offcanvas-start bg-body-tertiary"
         id="sideMenu"
         tabIndex={-1}
+        style={stylesCanvas}
         >
-            <div className="offcanvas-header d-flex justify-content-between bg-danger">
-                <h5 className="offcanvas-tittle fw-semibold">
-                    Sherlock
-                </h5>
+            <div className="offcanvas-header bg-danger">
                 {/* <i className='bx bx-menu'></i> */}
                 <a href="#" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
                     <i className="bi bi-x-lg" style={{fontSize:22, color: "black"}}></i>
@@ -32,4 +33,8 @@
             </div>
         </section>
     )
+}
+
+const stylesCanvas: React.CSSProperties = {
+    width:350,
 }

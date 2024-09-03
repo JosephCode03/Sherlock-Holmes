@@ -1,5 +1,5 @@
 import './styles/NavBar.css'
-import NavMenu from "./NavMenu"
+//import NavMenu from "./NavMenu"
 import SideBar from './SideBar'
 
 export default function NavBar() {
@@ -15,7 +15,7 @@ export default function NavBar() {
                 </button>
 
                 {/* Nav Menu */}
-                <NavMenu/>
+                {/* <NavMenu/> */}
 
                 {/* Side Nabar */}
                 <SideBar/>
