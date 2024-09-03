@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+}
+
+.navbar-toggler{
+    border:  1 solid rgb(137, 159, 178);
+    box-shadow: none; 
+}
+
+.navbar-toggler:focus {
+    box-shadow: none; /* Elimina el efecto de sombra al enfocar */
+}
+
+.bi-list{
+    font-size: 25px;
+    /* color: rgb(80, 130, 172); */
+}
