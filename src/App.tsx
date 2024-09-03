@@ -3,10 +3,6 @@ import './App.css';
 
 function App() {
 
-  function message() {
-    alert`Hello Sr. Joseph`
-  }
-
   return (
     <div className="App">
       <header className="App-header">
@@ -22,10 +18,6 @@ function App() {
         >
           Learn React
         </a>
-
-        <button type="button" className="btn btn-primary btn-sm mt-4 d-flex gap-2" style={{width:100, fontSize:18}} onClick={message}>
-          Click Here
-        </button>
       </header>
     </div>
   );
