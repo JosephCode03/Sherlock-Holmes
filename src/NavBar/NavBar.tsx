@@ -1,5 +1,6 @@
 import './styles/NavBar.css'
 import NavMenu from "./NavMenu"
+import SideBar from './SideBar'
 
 export default function NavBar() {
     return(
@@ -9,12 +10,15 @@ export default function NavBar() {
                 
                 {/* Button Menu */}
                 <button className="navbar-toggler" 
-                type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                type="button" data-bs-toggle="offcanvas" data-bs-target="#sideMenu" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
 
                 {/* Nav Menu */}
                 <NavMenu/>
+
+                {/* Side Nabar */}
+                <SideBar/>
             </div>
         </nav>
     )

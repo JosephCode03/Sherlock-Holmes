@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
-
+import 'boxicons/css/boxicons.min.css'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
