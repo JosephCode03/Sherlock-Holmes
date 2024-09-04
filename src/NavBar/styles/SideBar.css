@@ -59,3 +59,21 @@
     box-shadow: none !important; /* Elimina la sombra */
     outline: none !important;
 }
+
+@media (max-width:991px) {
+    .offcanvas-body .me-auto .nav-link{
+        padding-left: 15px;
+    }
+    .offcanvas-body .me-auto .nav-link:hover{
+        background-color: rgb(228, 238, 247) ;
+        border-bottom: none;
+        border-radius: 15px;
+    }
+
+    .offcanvas-body .me-2{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px
+    }
+}
