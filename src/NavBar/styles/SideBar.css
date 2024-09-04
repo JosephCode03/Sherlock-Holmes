@@ -63,17 +63,26 @@
 @media (max-width:991px) {
     .offcanvas-body .me-auto .nav-link{
         padding-left: 15px;
+        
     }
     .offcanvas-body .me-auto .nav-link:hover{
         background-color: rgb(228, 238, 247) ;
         border-bottom: none;
         border-radius: 15px;
+        color: rgb(72, 126, 188);
     }
 
     .offcanvas-body .me-2{
         margin-top: 10px;
         display: flex;
         flex-direction: column;
-        gap: 8px
+        gap: 8px;
+        padding-left: 15px;
+    }
+    
+    .offcanvas-body .me-2 .nav-link:hover{
+        color: rgb(72, 126, 188);
+        transition: 0.3s;
+        background-color: rgb(228, 238, 247) ;
     }
 }
