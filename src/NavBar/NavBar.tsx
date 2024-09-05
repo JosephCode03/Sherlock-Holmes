@@ -3,7 +3,7 @@ import SideBar from './SideBar'
 
 export default function NavBar() {
     return(
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
                 <a href="#" className="navbar-brand text-info fw-semibold fs-0">Sherlock</a>
                 
@@ -17,6 +17,7 @@ export default function NavBar() {
 
                 {/* Side Nabar */}
                 <SideBar/>
+
             </div>
         </nav>
     )

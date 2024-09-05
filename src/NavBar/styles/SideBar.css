@@ -5,3 +5,57 @@
 .offcanvas-header{
     height: 60px;
 }
+
+.offcanvas-body .me-auto .nav-link{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(72, 126, 188);
+    margin-top: 4px;
+}
+.offcanvas-body .me-auto .nav-link:hover{
+    color: rgb(125, 166, 213);
+    border-bottom: 2px solid rgb(125, 166, 213);
+}
+
+.bi{
+    font-size: 20px;
+    color: rgb(72, 126, 188);
+}
+
+.bi:hover{
+    font-size: 20px;
+    color: rgb(125, 166, 213);
+    transition: 0.3s;
+}
+
+.me-2 .search{
+    margin-top: 5px;
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 38px;
+    border: 1px solid rgb(192, 212, 227);
+    border-radius: 30px;
+    background-color: rgb(250, 251, 251); 
+    /* background-color: rgb(250, 252, 255); */
+    margin-right: 8px;
+}
+
+.me-2 .search input{
+    height: 25px;
+    width: 230px;
+    border: none;
+    border-bottom: 1px solid rgb(192, 212, 227);
+    border-radius: 0;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.me-2 .search input:focus {
+    /* border: none !important; */
+    box-shadow: none !important; /* Elimina la sombra */
+    outline: none !important;
+}

@@ -1,0 +1,5 @@
+.offcanvas-end{
+    height: calc(100vh - 60px);
+    border-left: 1px solid rgb(194, 207, 212) !important;
+    box-shadow: 0px 1px 3px rgb(194, 207, 212) !important;
+}

@@ -4,6 +4,11 @@
   font-size: 20px;
 }
 
+.App{
+  background-color: rgb(250, 252, 255);
+  height: 100vh;
+}
+
 @media (max-width:991px) {
     .navbar-collapse{
         display: none;
