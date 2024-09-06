@@ -8,7 +8,7 @@ export default function Home() {
             <div className="home-left">
                 <HomeLeft/>
             </div>
-            <div className="home-right bg-info">
+            <div className="home-right">
                 <img src={sherlock} alt="sherlock-holmes-picture" />
             </div>
         </div>
