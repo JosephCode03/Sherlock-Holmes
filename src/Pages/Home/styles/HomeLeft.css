@@ -11,3 +11,10 @@
     font-size: 23px;
     font-weight: 400;
 }
+
+.buttons-group{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}

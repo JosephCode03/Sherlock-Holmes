@@ -1,8 +1,9 @@
 .Home{
     display: flex;
+    gap: 10px;
 }
 
 
-/* .home-left, .home-right{
-    width: 50%;
+/* .home-left{
+    width: 60%;
 } */

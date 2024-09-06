@@ -11,8 +11,12 @@ export default function HomeLeft() {
 
             <div className="buttons-group">
                 <Link to='/books' className="btn btn-primary btn-sm">
-                Buy our books
+                    Buy our books
                 </Link>
+
+                <button className='btn btn-primary btn-sm'>
+                    Sing in
+                </button>
             </div>
         </div>
     )
