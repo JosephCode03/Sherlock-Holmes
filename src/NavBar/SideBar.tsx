@@ -18,15 +18,12 @@ import './styles/SideBar.css'
             <div className="offcanvas-body">
                 <ul className="navbar-nav me-auto mb-0">
                     <li className="nav-item">
-                        {/* <a className="nav-link" aria-current="page" href="#">Home</a> */}
                         <Link to='/home' className="nav-link">Home</Link>
                     </li>
                     <li className="nav-item">
-                        {/* <a className="nav-link" href="#">Books</a> */}
                         <Link to='/books' className="nav-link">Books</Link>
                     </li>
                     <li className="nav-item ">
-                        {/* <a className="nav-link" href="#">About</a> */}
                         <Link to='/about' className="nav-link">About</Link>
                     </li>
                 </ul>
