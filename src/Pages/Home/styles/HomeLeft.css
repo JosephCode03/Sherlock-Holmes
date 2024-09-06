@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.welcome-message{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.p-home-1{
+    font-size: 23px;
+    font-weight: 400;
+}

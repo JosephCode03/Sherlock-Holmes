@@ -13,7 +13,7 @@ export default function Error404() {
                 <p className='p-1'>We can't find the page you're looking for.</p>
                 <p className='p-2'>It may have expired, or there cloud be a typo. Maybe you can find what you need from pur homepage.</p>
 
-                <Link to='/home' className="btn btn-primary btn-sm">Return to Sherlock.com</Link>
+                <Link to='/home' className="btn btn-primary btn-sm btn-return-home">Return to Sherlock.com</Link>
             </div>
         </div>
     )

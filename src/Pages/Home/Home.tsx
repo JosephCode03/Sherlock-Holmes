@@ -5,7 +5,7 @@ import HomeLeft from './HomeLeft'
 export default function Home() {
     return(
         <div className="container Home">
-            <div className="home-left bg-danger">
+            <div className="home-left">
                 <HomeLeft/>
             </div>
             <div className="home-right bg-info">
