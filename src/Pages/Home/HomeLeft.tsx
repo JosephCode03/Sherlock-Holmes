@@ -10,11 +10,11 @@ export default function HomeLeft() {
             </p>
 
             <div className="buttons-group">
-                <Link to='/books' className="btn btn-primary btn-sm">
+                <Link to='/books' className="btn btn-primary btn-sm btn-buy">
                     Buy our books
                 </Link>
 
-                <button className='btn btn-primary btn-sm'>
+                <button className='btn btn-outline-primary btn-sm btn-singin'>
                     Sing in
                 </button>
             </div>
