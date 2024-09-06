@@ -5,7 +5,7 @@
     font-weight: 400;
     font-size: 70px;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .p-home-1{
@@ -31,4 +31,5 @@
 .btn-singin{
     width: 120px;
     font-weight: 500;
+    /* box-shadow: 1px 1px 3px rgb(179, 186, 195) !important; */
 }
