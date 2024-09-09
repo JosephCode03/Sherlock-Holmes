@@ -1,4 +1,5 @@
- import './styles/SideBar.css'
+ import { Link } from 'react-router-dom'
+import './styles/SideBar.css'
 
  export default function SideBar() {
 
@@ -17,13 +18,16 @@
             <div className="offcanvas-body">
                 <ul className="navbar-nav me-auto mb-0">
                     <li className="nav-item">
-                        <a className="nav-link" aria-current="page" href="#">Home</a>
+                        {/* <a className="nav-link" aria-current="page" href="#">Home</a> */}
+                        <Link to='/home' className="nav-link">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Books</a>
+                        {/* <a className="nav-link" href="#">Books</a> */}
+                        <Link to='/books' className="nav-link">Books</Link>
                     </li>
                     <li className="nav-item ">
-                        <a className="nav-link" href="#">Contents</a>
+                        {/* <a className="nav-link" href="#">About</a> */}
+                        <Link to='/about' className="nav-link">About</Link>
                     </li>
                 </ul>
                 <ul className="navbar-nav me-2 mb-0">
