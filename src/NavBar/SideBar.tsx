@@ -34,7 +34,7 @@
                         </a>
                     </li>
                     <li className="nav-item dropdown">
-                        <a className="nav-link" href="#"
+                        <a className="nav-link link-icon" href="#"
                         data-bs-toggle="offcanvas" data-bs-target="#sideCart" aria-controls="sideCart"
                         >   
                             <i className='bi bi-bag-fill position-relative'>
@@ -45,7 +45,7 @@
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#userAccountModal">
+                        <a className="nav-link link-icon" href="#" data-bs-toggle="modal" data-bs-target="#userAccountModal">
                             <i className='bi bi-person-circle'></i>
                         </a>
                     </li>
