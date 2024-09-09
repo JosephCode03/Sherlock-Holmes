@@ -9,7 +9,6 @@
         style={stylesCanvas}
         >
             <div className="offcanvas-header">
-                {/* <i className='bx bx-menu'></i> */}
                 <a href="#" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
                     <i className="bi bi-x-lg" style={{fontSize:22, color: "black"}}></i>
                 </a>               
